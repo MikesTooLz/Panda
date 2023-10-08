@@ -13,6 +13,7 @@ sudo scons -u
 sudo ./recover.py
 sudo ln -s ~/panda/board/ /usr/local/lib/python3.9/dist-packages/pandacan-0.0.10-py3.9.egg/board
 sudo ./recover.py
+sleep 10
 sudo ./flash.py
 cd ..
 cd ..
