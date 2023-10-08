@@ -7,7 +7,7 @@ from panda import Panda
 
 p = Panda()
 
-p.set_scan_speed_kbps(0,500)
+p.set_can_speed_kbps(0,500)
 p.set_safety_mode(Panda.SAFETY_ALLOUTPUT)
 
 while True:
