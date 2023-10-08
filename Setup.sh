@@ -9,11 +9,11 @@ grep SUBSYS README.md | sudo tee /etc/udev/rules.d/11-panda.rules
 udevadm control --reload-rules && sudo udevadm trigger
 lsusb
 cd board
-scons -u
-./recover.py
-ln -s ~/panda/board/ /usr/local/lib/python3.9/dist-packages/pandacan-0.0.10-py3.9.egg/board
-./recover.py
-./flash.py
+sudo scons -u
+sudo ./recover.py
+sudo ln -s ~/panda/board/ /usr/local/lib/python3.9/dist-packages/pandacan-0.0.10-py3.9.egg/board
+sudo ./recover.py
+sudo ./flash.py
 cd ..
 cd ..
 wget -O MarsMode.py https://github.com/MikesTooLz/Panda/raw/main/marsmode-mediavolume-basic.py
