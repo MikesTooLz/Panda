@@ -20,3 +20,4 @@ cd ..
 wget -O MarsMode.py https://github.com/MikesTooLz/Panda/raw/main/marsmode-mediavolume-basic.py
 cd /etc/
 wget -O rc.local https://github.com/MikesTooLz/Panda/raw/main/rc.local
+cd ~
