@@ -15,3 +15,6 @@ scons -u
 sudo ln -s ~/panda/board/ /usr/local/lib/python3.9/dist-packages/pandacan-0.010-py3.9.egg/board
 ./recover.py
 ./flash.py
+cd ..
+cd ..
+wget -O MarsMode.py https://github.com/MikesTooLz/Panda/raw/main/marsmode-mediavolume-basic.py
