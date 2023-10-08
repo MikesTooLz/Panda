@@ -6,3 +6,8 @@ wget https://github.com/MikesTooLz/Panda/raw/main/Setup.sh
 sudo sh Setup.sh
 
 ```
+
+Set Raspbery Pi's action to move speed up/down (Optional)
+```
+sudo wget -O MarsMode.py https://github.com/MikesTooLz/Panda/raw/main/marsmode-speed-basic.py
+```
