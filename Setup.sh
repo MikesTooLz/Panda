@@ -11,7 +11,7 @@ lsusb
 cd board
 scons -u
 ./recover.py
-ln -s ~/panda/board/ /usr/local/lib/python3.9/dist-packages/pandacan-0.010-py3.9.egg/board
+ln -s ~/panda/board/ /usr/local/lib/python3.9/dist-packages/pandacan-0.0.10-py3.9.egg/board
 ./recover.py
 ./flash.py
 cd ..
