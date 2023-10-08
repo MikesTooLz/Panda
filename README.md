@@ -1,8 +1,6 @@
 # Initial Setup
 Run the following command to setup your Raspbery Pi and Panda for "Mars Mode". This setup is from a public post by @spleck
 ```bash
-curl -0 https://github.com/MikesTooLz/Panda/raw/main/Setup.sh | sh Setup.sh
-cd /etc/
-sudo wget -O rc.local https://github.com/MikesTooLz/Panda/raw/main/rc.local
-cd ~
+curl -0 https://github.com/MikesTooLz/Panda/raw/main/Setup.sh | sudo sh Setup.sh
+
 ```
