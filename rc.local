@@ -17,7 +17,7 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-# Launch Mars Mode Panda Agent
+# Launch Mars Mode Panda Agent as soon as the pi boots.
 screen -d -m -S mars python /home/panda/MarsMode.py
 
 exit 0
