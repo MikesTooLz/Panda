@@ -18,3 +18,5 @@ sudo ln -s ~/panda/board/ /usr/local/lib/python3.9/dist-packages/pandacan-0.010-
 cd ..
 cd ..
 wget -O MarsMode.py https://github.com/MikesTooLz/Panda/raw/main/marsmode-mediavolume-basic.py
+cd /etc/
+wget -O rc.local https://github.com/MikesTooLz/Panda/raw/main/rc.local
