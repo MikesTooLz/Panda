@@ -18,6 +18,6 @@ if [ "$_IP" ]; then
 fi
 
 # Launch Mars Mode Panda Agent as soon as the pi boots.
-screen -d -m -S mars python /home/panda/MarsMode.py
+screen -d -m -S Mars sudo python /home/panda/MarsMode.py
 
 exit 0
