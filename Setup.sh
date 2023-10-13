@@ -20,4 +20,6 @@ cd ..
 wget -O MarsMode.py https://github.com/MikesTooLz/Panda/raw/main/marsmode-mediavolume-basic.py
 cd /etc/
 sudo wget -O rc.local https://github.com/MikesTooLz/Panda/raw/main/rc.local
+sudo chown root /etc/rc.local
+sudo chmod 755 /etc/rc.local
 cd ~
